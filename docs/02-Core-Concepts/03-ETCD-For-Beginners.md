@@ -33,16 +33,19 @@
          
        $ https://github.com/etcd-io/etcd/releases/download/v3.3.11/etcd-v3.3.11-linux-amd64.tar.gz
        ```
+
   - Extract it.
 
        ```
        tar xvzf etcd-v3.3.11-linux-amd64.tar.gz 
        ```
+
   - Run the ETCD Service
 
        ```
        ./etcd
        ```
+
   - When you start **`ETCD`** it will by default listens on port **`2379`**
   - The default client that comes with **`ETCD`** is the [**`etcdctl`**](https://github.com/etcd-io/etcd/tree/main/etcdctl) client. You can use it to store and retrieve key-value pairs.
 
